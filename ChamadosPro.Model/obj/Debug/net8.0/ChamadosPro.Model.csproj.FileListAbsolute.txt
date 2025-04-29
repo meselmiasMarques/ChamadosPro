@@ -1,0 +1,11 @@
+C:\DEV\ChamadosPro\ChamadosPro.Model\bin\Debug\net8.0\ChamadosPro.Model.deps.json
+C:\DEV\ChamadosPro\ChamadosPro.Model\bin\Debug\net8.0\ChamadosPro.Model.dll
+C:\DEV\ChamadosPro\ChamadosPro.Model\bin\Debug\net8.0\ChamadosPro.Model.pdb
+C:\DEV\ChamadosPro\ChamadosPro.Model\obj\Debug\net8.0\ChamadosPro.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\ChamadosPro\ChamadosPro.Model\obj\Debug\net8.0\ChamadosPro.Model.AssemblyInfoInputs.cache
+C:\DEV\ChamadosPro\ChamadosPro.Model\obj\Debug\net8.0\ChamadosPro.Model.AssemblyInfo.cs
+C:\DEV\ChamadosPro\ChamadosPro.Model\obj\Debug\net8.0\ChamadosPro.Model.csproj.CoreCompileInputs.cache
+C:\DEV\ChamadosPro\ChamadosPro.Model\obj\Debug\net8.0\ChamadosPro.Model.dll
+C:\DEV\ChamadosPro\ChamadosPro.Model\obj\Debug\net8.0\refint\ChamadosPro.Model.dll
+C:\DEV\ChamadosPro\ChamadosPro.Model\obj\Debug\net8.0\ChamadosPro.Model.pdb
+C:\DEV\ChamadosPro\ChamadosPro.Model\obj\Debug\net8.0\ref\ChamadosPro.Model.dll

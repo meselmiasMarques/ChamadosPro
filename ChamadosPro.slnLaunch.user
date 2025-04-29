@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "ChamadosPro.API\\ChamadosPro.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ChamadosPro.WebBlazor\\ChamadosPro.WebBlazor.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

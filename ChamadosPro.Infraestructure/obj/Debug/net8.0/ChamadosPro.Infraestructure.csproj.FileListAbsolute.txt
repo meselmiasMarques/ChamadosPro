@@ -1,0 +1,17 @@
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\bin\Debug\net8.0\ChamadosPro.Infraestructure.deps.json
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\bin\Debug\net8.0\ChamadosPro.Infraestructure.runtimeconfig.json
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\bin\Debug\net8.0\ChamadosPro.Infraestructure.dll
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\bin\Debug\net8.0\ChamadosPro.Infraestructure.pdb
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\bin\Debug\net8.0\ChamadosPro.Model.dll
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\bin\Debug\net8.0\ChamadosPro.Model.pdb
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\obj\Debug\net8.0\ChamadosPro.Infraestructure.csproj.AssemblyReference.cache
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\obj\Debug\net8.0\ChamadosPro.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\obj\Debug\net8.0\ChamadosPro.Infraestructure.AssemblyInfoInputs.cache
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\obj\Debug\net8.0\ChamadosPro.Infraestructure.AssemblyInfo.cs
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\obj\Debug\net8.0\ChamadosPro.Infraestructure.csproj.CoreCompileInputs.cache
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\obj\Debug\net8.0\Chamados.8D66E22D.Up2Date
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\obj\Debug\net8.0\ChamadosPro.Infraestructure.dll
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\obj\Debug\net8.0\refint\ChamadosPro.Infraestructure.dll
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\obj\Debug\net8.0\ChamadosPro.Infraestructure.pdb
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\obj\Debug\net8.0\ChamadosPro.Infraestructure.genruntimeconfig.cache
+C:\DEV\ChamadosPro\ChamadosPro.Infraestructure\obj\Debug\net8.0\ref\ChamadosPro.Infraestructure.dll
