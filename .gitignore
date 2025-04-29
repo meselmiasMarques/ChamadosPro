@@ -1,0 +1,56 @@
+## Diretórios padrão do .NET
+bin/
+obj/
+out/
+
+## Configurações do usuário e builds locais
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+*.log
+
+## Configurações específicas de IDE
+*.dbmdl
+*.bak
+*.Backup
+*.tmp
+*.cache
+*.pdb
+
+## Arquivos sensíveis ou temporários
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+secrets.json
+
+## Logs
+*.log
+
+## pacotes gerenciados
+packages/
+*.nupkg
+*.snupkg
+
+## Arquivos de publicação
+publish/
+wwwroot/dist/
+wwwroot/build/
+
+## Git
+*.orig
+
+## Sistemas Unix
+.DS_Store
+
+## Docker
+docker-compose.override.yml
+
+## Node/NPM
+node_modules/
+
+## Blazor
+*.g.cs
+*.g.i.cs
