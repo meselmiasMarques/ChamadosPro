@@ -26,6 +26,15 @@
     <Content Update="wwwroot\appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Remove="Componentes\UsuarioFormDialog.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChamadosPro.Core\ChamadosPro.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Componentes\" />
   </ItemGroup>
 
 </Project>

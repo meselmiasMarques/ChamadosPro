@@ -1,4 +1,4 @@
-﻿using ChamadosPro.Model.Entities;
+﻿using ChamadosPro.Core.Models;
 
 namespace ChamadosPro.Infraestructure.Repositories.Interfaces
 {

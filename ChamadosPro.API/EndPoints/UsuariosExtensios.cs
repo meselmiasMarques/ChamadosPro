@@ -1,9 +1,10 @@
 using System.ComponentModel.DataAnnotations;
 using ChamadosPro.API.Request;
 using ChamadosPro.API.Response;
+using ChamadosPro.Core.Models;
+using ChamadosPro.Core.Requests;
 using ChamadosPro.Infraestructure.Repositories.Interfaces;
-using ChamadosPro.Model.Entities;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace ChamadosPro.API.EndPoints;
@@ -51,7 +52,7 @@ public static class UsuariosExtensios
         });
 
 
-        endpointUser.MapPost("", async (IUsuarioRepository usuarioRepository, UsuarioRequest model) =>
+        endpointUser.MapPost("", async (IUsuarioRepository usuarioRepository, UsuarioCreateRequest model) =>
         {
             var validationResults = new List<ValidationResult>();
             var context = new ValidationContext(model);

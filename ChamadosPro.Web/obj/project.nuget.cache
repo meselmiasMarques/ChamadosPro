@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YDVLj89Ne74=",
+  "dgSpecHash": "wtpEneLgzqs=",
   "success": true,
-  "projectFilePath": "C:\\DEV\\ChamadosPro\\ChamadosPro.Web\\ChamadosPro.Web.csproj",
+  "projectFilePath": "C:\\dev\\ChamadosPro\\ChamadosPro.Web\\ChamadosPro.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mlima\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.15\\microsoft.aspnetcore.authorization.8.0.15.nupkg.sha512",
     "C:\\Users\\mlima\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.15\\microsoft.aspnetcore.components.8.0.15.nupkg.sha512",

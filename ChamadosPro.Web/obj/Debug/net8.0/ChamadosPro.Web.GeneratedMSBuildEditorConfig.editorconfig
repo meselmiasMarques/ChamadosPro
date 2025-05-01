@@ -16,37 +16,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = ChamadosPro.Web
 build_property.RootNamespace = ChamadosPro.Web
-build_property.ProjectDir = C:\DEV\ChamadosPro\ChamadosPro.Web\
+build_property.ProjectDir = C:\dev\ChamadosPro\ChamadosPro.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\DEV\ChamadosPro\ChamadosPro.Web
+build_property.MSBuildProjectDirectory = C:\dev\ChamadosPro\ChamadosPro.Web
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/DEV/ChamadosPro/ChamadosPro.Web/App.razor]
+[C:/dev/ChamadosPro/ChamadosPro.Web/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/ChamadosPro/ChamadosPro.Web/Layout/MainLayout.razor]
+[C:/dev/ChamadosPro/ChamadosPro.Web/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/ChamadosPro/ChamadosPro.Web/Pages/Home.razor]
+[C:/dev/ChamadosPro/ChamadosPro.Web/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/ChamadosPro/ChamadosPro.Web/Pages/Usuarios.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3MucmF6b3I=
+[C:/dev/ChamadosPro/ChamadosPro.Web/Pages/Usuarios/Cadastrar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcQ2FkYXN0cmFyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/ChamadosPro/ChamadosPro.Web/_Imports.razor]
+[C:/dev/ChamadosPro/ChamadosPro.Web/Pages/Usuarios/Lista.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcTGlzdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/ChamadosPro/ChamadosPro.Web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/ChamadosPro/ChamadosPro.Web/Layout/NavMenu.razor]
+[C:/dev/ChamadosPro/ChamadosPro.Web/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-c5gvg7yxz4

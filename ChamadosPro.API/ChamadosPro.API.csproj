@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ChamadosPro.Infraestructure\ChamadosPro.Infraestructure.csproj" />
-    <ProjectReference Include="..\ChamadosPro.Model\ChamadosPro.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>

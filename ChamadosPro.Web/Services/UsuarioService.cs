@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using ChamadosPro.Web.Responses;
-using System.Collections.Generic;
-using System.Linq.Expressions;
+﻿using ChamadosPro.Web.Responses;
 using System.Net.Http.Json;
+using ChamadosPro.Core.Requests;
 
 namespace ChamadosPro.Web.Services
 {
@@ -16,11 +14,11 @@ namespace ChamadosPro.Web.Services
         }
 
 
-        public async Task<ICollection<UsuarioResponse>>? GetUsuariosAsync()
+        public async Task<List<UsuarioResponse>?>? GetUsuariosAsync()
         {
             try
             {
-                var result = await _httpClient.GetFromJsonAsync<ICollection<UsuarioResponse>>("v1/usuarios");
+                var result = await _httpClient.GetFromJsonAsync<List<UsuarioResponse>>("v1/usuarios");
 
                 return result;
             }
@@ -48,11 +46,11 @@ namespace ChamadosPro.Web.Services
             }
         }
 
-        public async Task<bool> CreateAsync(UsuarioResponse model)
+        public async Task<bool> CreateAsync(UsuarioCreateRequest model)
         {
             try
             {
-                var usuario = await _httpClient.PostAsJsonAsync<UsuarioResponse>("v1/usuarios/{id}", model);
+                var usuario = await _httpClient.PostAsJsonAsync<UsuarioCreateRequest>("v1/usuarios", model);
 
                 if (!usuario.IsSuccessStatusCode)
                 {

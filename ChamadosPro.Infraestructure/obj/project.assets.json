@@ -1054,14 +1054,14 @@
           }
         }
       },
-      "ChamadosPro.Model/1.0.0": {
+      "ChamadosPro.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/ChamadosPro.Model.dll": {}
+          "bin/placeholder/ChamadosPro.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ChamadosPro.Model.dll": {}
+          "bin/placeholder/ChamadosPro.Core.dll": {}
         }
       }
     }
@@ -2886,15 +2886,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "ChamadosPro.Model/1.0.0": {
+    "ChamadosPro.Core/1.0.0": {
       "type": "project",
-      "path": "../ChamadosPro.Model/ChamadosPro.Model.csproj",
-      "msbuildProject": "../ChamadosPro.Model/ChamadosPro.Model.csproj"
+      "path": "../ChamadosPro.Core/ChamadosPro.Core.csproj",
+      "msbuildProject": "../ChamadosPro.Core/ChamadosPro.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "ChamadosPro.Model >= 1.0.0",
+      "ChamadosPro.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.13"
     ]
@@ -2932,8 +2932,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\DEV\\ChamadosPro\\ChamadosPro.Model\\ChamadosPro.Model.csproj": {
-              "projectPath": "C:\\DEV\\ChamadosPro\\ChamadosPro.Model\\ChamadosPro.Model.csproj"
+            "C:\\DEV\\ChamadosPro\\ChamadosPro.Core\\ChamadosPro.Core.csproj": {
+              "projectPath": "C:\\DEV\\ChamadosPro\\ChamadosPro.Core\\ChamadosPro.Core.csproj"
             }
           }
         }

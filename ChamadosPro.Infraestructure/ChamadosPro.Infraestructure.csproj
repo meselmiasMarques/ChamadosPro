@@ -13,6 +13,6 @@
 		</PackageReference>
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\ChamadosPro.Model\ChamadosPro.Model.csproj" />
+	  <ProjectReference Include="..\ChamadosPro.Core\ChamadosPro.Core.csproj" />
 	</ItemGroup>
 </Project>

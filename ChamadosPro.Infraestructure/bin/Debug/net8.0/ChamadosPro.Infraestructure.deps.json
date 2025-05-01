@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "ChamadosPro.Infraestructure/1.0.0": {
         "dependencies": {
-          "ChamadosPro.Model": "1.0.0",
+          "ChamadosPro.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.13"
         },
@@ -610,9 +610,9 @@
           }
         }
       },
-      "ChamadosPro.Model/1.0.0": {
+      "ChamadosPro.Core/1.0.0": {
         "runtime": {
-          "ChamadosPro.Model.dll": {
+          "ChamadosPro.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1046,7 +1046,7 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
-    "ChamadosPro.Model/1.0.0": {
+    "ChamadosPro.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

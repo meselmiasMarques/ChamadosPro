@@ -9,7 +9,6 @@
       "ChamadosPro.API/1.0.0": {
         "dependencies": {
           "ChamadosPro.Infraestructure": "1.0.0",
-          "ChamadosPro.Model": "1.0.0",
           "Swashbuckle.AspNetCore": "8.1.1"
         },
         "runtime": {
@@ -542,21 +541,21 @@
           }
         }
       },
-      "ChamadosPro.Infraestructure/1.0.0": {
-        "dependencies": {
-          "ChamadosPro.Model": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
-        },
+      "ChamadosPro.Core/1.0.0": {
         "runtime": {
-          "ChamadosPro.Infraestructure.dll": {
+          "ChamadosPro.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "ChamadosPro.Model/1.0.0": {
+      "ChamadosPro.Infraestructure/1.0.0": {
+        "dependencies": {
+          "ChamadosPro.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
+        },
         "runtime": {
-          "ChamadosPro.Model.dll": {
+          "ChamadosPro.Infraestructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -990,12 +989,12 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
-    "ChamadosPro.Infraestructure/1.0.0": {
+    "ChamadosPro.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ChamadosPro.Model/1.0.0": {
+    "ChamadosPro.Infraestructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

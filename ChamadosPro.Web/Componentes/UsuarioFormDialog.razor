@@ -1,0 +1,74 @@
+@using ChamadosPro.Core.Requests
+@using ChamadosPro.Web.Requests
+@using ChamadosPro.Web.Responses
+@using ChamadosPro.Web.Services
+@inject IDialogService DialogService
+@inject UsuarioService _usuarioService
+@inject ISnackbar Snackbar
+
+<MudDialog>
+    <DialogContent>
+        <MudForm @ref="form" Validated="OnValidated">
+
+            <MudTextField @bind-Value="user.Nome" Label="Nome" Required="true"/>
+            <MudTextField @bind-Value="user.Email" Label="Email" Required="true"/>
+            <MudTextField @bind-Value="user.Senha" Label="Senha" InputType="InputType.Password" Required="true"/>
+            <MudTextField Label="Confirmar Senha" @bind-Value="user.ConfirmaSenha" InputType="InputType.Password" Required="true"/>
+            <MudTextField @bind-Value="user.Perfil" Label="Perfil" Required="true"/>
+
+            @if (passwordMismatch)
+            {
+                <MudText Color="Color.Error">As senhas não coincidem.</MudText>
+            }
+        </MudForm>
+    </DialogContent>
+    <DialogActions>
+        <MudButton Color="Color.Primary" OnClick="Submit">Cadastrar</MudButton>
+        <MudButton OnClick="Cancel">Cancelar</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter] IMudDialogInstance MudDialog { get; set; }
+
+    private MudForm form;
+    private UsuarioFormRequest user = new();
+    private bool passwordMismatch = false;
+
+    private async Task Submit()
+    {
+        await form.Validate();
+
+        if (form.IsValid)
+        {
+            passwordMismatch = user.Senha != user.ConfirmaSenha;
+
+            if (!passwordMismatch)
+            {
+                var usuario = new UsuarioCreateRequest(user.Nome, user.Email, user.Senha, user.Perfil);
+
+
+                var result = await _usuarioService.CreateAsync(usuario);
+                if (!result)
+                {
+                    Snackbar.Add("Erro ao gravar usuario", Severity.Error);
+                }
+                else
+                {
+                    Snackbar.Add("Usuário criado com sucesso !", Severity.Success);
+                    MudDialog.Close(DialogResult.Ok(user));
+                    
+                }
+            }
+        }
+    }
+
+    private void Cancel() => MudDialog.Cancel();
+
+    private void OnValidated()
+    {
+// Opicional - lógica extra ao validar
+    }
+
+
+}

@@ -1,6 +1,6 @@
 ﻿using ChamadosPro.Infraestructure.Data;
 using ChamadosPro.Infraestructure.Repositories.Interfaces;
-using ChamadosPro.Model.Entities;
+using ChamadosPro.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ChamadosPro.Infraestructure.Repositories

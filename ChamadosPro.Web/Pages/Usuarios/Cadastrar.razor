@@ -1,0 +1,37 @@
+@page "/usuarios/cadastrar"
+@inherits CadastrarUsuarioPage
+
+<MudText Typo="Typo.h3">Nova Categoria</MudText>
+<MudPaper Class="pa-8 mt-4">
+    <EditForm Model="@InputModel" OnValidSubmit="OnValidSubmitAsync">
+        <DataAnnotationsValidator/>
+
+        <MudTextField Label="Nome"
+                      HelperText="Campo obrigatório"
+                      @bind-Value="InputModel.Nome"
+                      For="@(() => InputModel.Nome)"/>
+        
+        <MudTextField Label="Email"
+                      HelperText="Campo obrigatório"
+                      InputType="InputType.Email"
+                      @bind-Value="InputModel.Email"
+                      For="@(() => InputModel.Email)"/>
+        
+        <MudTextField Label="Senha"
+                      HelperText="Campo obrigatório"
+                      InputType="InputType.Password"
+                      @bind-Value="InputModel.Senha"
+                      For="@(() => InputModel.Senha)"/>
+
+        <MudTextField Label="Perfil"
+                      HelperText="Campo obrigatório"
+                      @bind-Value="InputModel.Perfil"
+                      For="@(() => InputModel.Perfil)"/>
+
+        <MudButton ButtonType="ButtonType.Submit"
+                   Variant="Variant.Filled"
+                   Color="Color.Primary">
+            Salvar
+        </MudButton>
+    </EditForm>
+</MudPaper>

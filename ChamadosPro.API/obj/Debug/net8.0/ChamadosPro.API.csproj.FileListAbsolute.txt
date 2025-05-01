@@ -49,9 +49,7 @@ C:\DEV\ChamadosPro\ChamadosPro.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Syst
 C:\DEV\ChamadosPro\ChamadosPro.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\DEV\ChamadosPro\ChamadosPro.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\DEV\ChamadosPro\ChamadosPro.API\bin\Debug\net8.0\ChamadosPro.Infraestructure.dll
-C:\DEV\ChamadosPro\ChamadosPro.API\bin\Debug\net8.0\ChamadosPro.Model.dll
 C:\DEV\ChamadosPro\ChamadosPro.API\bin\Debug\net8.0\ChamadosPro.Infraestructure.pdb
-C:\DEV\ChamadosPro\ChamadosPro.API\bin\Debug\net8.0\ChamadosPro.Model.pdb
 C:\DEV\ChamadosPro\ChamadosPro.API\obj\Debug\net8.0\ChamadosPro.API.csproj.AssemblyReference.cache
 C:\DEV\ChamadosPro\ChamadosPro.API\obj\Debug\net8.0\ChamadosPro.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\DEV\ChamadosPro\ChamadosPro.API\obj\Debug\net8.0\ChamadosPro.API.AssemblyInfoInputs.cache
@@ -70,3 +68,6 @@ C:\DEV\ChamadosPro\ChamadosPro.API\obj\Debug\net8.0\refint\ChamadosPro.API.dll
 C:\DEV\ChamadosPro\ChamadosPro.API\obj\Debug\net8.0\ChamadosPro.API.pdb
 C:\DEV\ChamadosPro\ChamadosPro.API\obj\Debug\net8.0\ChamadosPro.API.genruntimeconfig.cache
 C:\DEV\ChamadosPro\ChamadosPro.API\obj\Debug\net8.0\ref\ChamadosPro.API.dll
+C:\DEV\ChamadosPro\ChamadosPro.API\obj\Debug\net8.0\ChamadosPro.API.sourcelink.json
+C:\DEV\ChamadosPro\ChamadosPro.API\bin\Debug\net8.0\ChamadosPro.Core.dll
+C:\DEV\ChamadosPro\ChamadosPro.API\bin\Debug\net8.0\ChamadosPro.Core.pdb

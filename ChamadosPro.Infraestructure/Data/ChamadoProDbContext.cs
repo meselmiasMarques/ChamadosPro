@@ -1,4 +1,4 @@
-﻿using ChamadosPro.Model.Entities;
+﻿using ChamadosPro.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ChamadosPro.Infraestructure.Data;
